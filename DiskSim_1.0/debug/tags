@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = gcc -Wall$/;"	m
+DEBUG_OFLAGS	Makefile	/^DEBUG_OFLAGS = -g$/;"	m
+DISKSIM_EXEC_H_	disksim_exec.h	9;"	d
+DISKSIM_OBJ	Makefile	/^DISKSIM_OBJ = ..\/src\/disksim_intr.o ..\/src\/disksim_cache.o ..\/src\/disksim_pfsim.o ..\/src\/disksim_pfdisp.o\\$/;"	m
+DISKSIM_PREFIX	Makefile	/^DISKSIM_PREFIX=..\/src$/;"	m
+DISKSIM_RMS_H_	disksim_rms.h	9;"	d
+LDFLAGS	Makefile	/^LDFLAGS = -lm$/;"	m
+MAX_POINTS	disksim_rms.c	15;"	d	file:
+RMS_INCR	disksim_rms.c	13;"	d	file:
+addlisttoextraq	disksim_exec.c	/^void addlisttoextraq(headptr)$/;"	f
+addtoextraq	disksim_exec.c	/^void addtoextraq(temp)$/;"	f
+addtointq	disksim_exec.c	/^void addtointq(temp)$/;"	f
+allocateextra	disksim_exec.c	/^void allocateextra() {$/;"	f
+cleanstats	disksim_exec.c	/^void cleanstats() {$/;"	f
+compute_rms	disksim_rms.c	/^double compute_rms(x1, y1, x2, y2)$/;"	f
+debugFile	disksim_exec.c	/^FILE *debugFile = NULL;$/;"	v
+disksim_exec	disksim_exec.c	/^void disksim_exec(char *parfilePath, char *outfilePath, char *tracetypeStr, char *tracefilePath,$/;"	f	signature:(char *parfilePath, char *outfilePath, char *tracetypeStr, char *tracefilePath, char *synthgenStr)
+disksim_exec	disksim_exec.h	/^void disksim_exec(char *parfile, char *outfile, char *tracetype, char *tracefile, char* synthgen);$/;"	p	signature:(char *parfile, char *outfile, char *tracetype, char *tracefile, char* synthgen)
+disksim_rms	disksim_rms.c	/^void disksim_rms(char *filePath1, char *filePath2, char *disknoStr,$/;"	f	signature:(char *filePath1, char *filePath2, char *disknoStr, char *rootnamesStr, char *doforservsStr)
+disksim_rms	disksim_rms.h	/^void disksim_rms(char *filePath1, char *filePath2, char *disknoStr, char *rootnamesStr, char *doforservsStr);$/;"	p	signature:(char *filePath1, char *filePath2, char *disknoStr, char *rootnamesStr, char *doforservsStr)
+disksim_simulate_event	disksim_exec.c	/^void disksim_simulate_event() {$/;"	f
+doparamoverrides	disksim_exec.c	/^void doparamoverrides(overrides, overcnt)$/;"	f
+endian	disksim_exec.c	/^int endian = _LITTLE_ENDIAN;$/;"	v
+event_copy	disksim_exec.c	/^event *event_copy(orig)$/;"	f
+external_control	disksim_exec.c	/^int external_control = 0;$/;"	v
+external_io_done_notify	disksim_exec.c	/^void (*external_io_done_notify)(ioreq_event *curr) = NULL;$/;"	v
+extraq	disksim_exec.c	/^event *extraq = NULL;$/;"	v
+extraqlen	disksim_exec.c	/^int extraqlen = 0;$/;"	v
+getEventType	disksim_exec.c	/^char* getEventType(int code) {$/;"	f	signature:(int code)
+get_line	disksim_rms.c	/^void get_line(filename, x, y, distname)$/;"	f
+getfromextraq	disksim_exec.c	/^event * getfromextraq() {$/;"	f
+getfromintq	disksim_exec.c	/^event * getfromintq() {$/;"	f
+getnextevent	disksim_exec.c	/^event * getnextevent() {$/;"	f
+getparam_bool	disksim_exec.c	/^void getparam_bool(parfile, parname, parptr)$/;"	f
+getparam_double	disksim_exec.c	/^void getparam_double(parfile, parname, parptr, parchecks, parminval, parmaxval)$/;"	f
+getparam_int	disksim_exec.c	/^void getparam_int(parfile, parname, parptr, parchecks, parminval, parmaxval)$/;"	f
+initialize	disksim_exec.c	/^void initialize() {$/;"	f
+intq	disksim_exec.c	/^event *intq = NULL;$/;"	v
+intqlen	disksim_exec.c	/^int intqlen = 0;$/;"	v
+intr_acknowledge	disksim_exec.c	/^extern void intr_acknowledge();$/;"	p	file:
+io_done_notify	disksim_exec.c	/^event *io_done_notify(curr)$/;"	f
+iotrace	disksim_exec.c	/^int iotrace = 0;$/;"	v
+iotrace_initialize_file	disksim_exec.c	/^extern void iotrace_initialize_file();$/;"	p	file:
+iotrace_set_format	disksim_exec.c	/^extern void iotrace_set_format();$/;"	p	file:
+iotracefile	disksim_exec.c	/^FILE *iotracefile = NULL;$/;"	v
+line1_x	disksim_rms.c	/^double line1_x[MAX_POINTS];$/;"	v
+line1_y	disksim_rms.c	/^double line1_y[MAX_POINTS];$/;"	v
+line2_x	disksim_rms.c	/^double line2_x[MAX_POINTS];$/;"	v
+line2_y	disksim_rms.c	/^double line2_y[MAX_POINTS];$/;"	v
+main	disksim_debug.c	/^int main()$/;"	f
+outios	disksim_exec.c	/^FILE *outios = NULL;$/;"	v
+outputfile	disksim_exec.c	/^FILE *outputfile = NULL;$/;"	v
+parfile	disksim_exec.c	/^FILE *parfile = NULL;$/;"	v
+prime_simulation	disksim_exec.c	/^void prime_simulation() {$/;"	f
+print_tracefile_header	disksim_exec.c	/^int print_tracefile_header = FALSE;$/;"	v
+printintq	disksim_exec.c	/^void printintq() {$/;"	f
+printstats	disksim_exec.c	/^void printstats() {$/;"	f
+readparams	disksim_exec.c	/^void readparams(parfile)$/;"	f
+removefromintq	disksim_exec.c	/^int removefromintq(curr)$/;"	f
+resetstats	disksim_exec.c	/^void resetstats() {$/;"	f
+scanparam_int	disksim_exec.c	/^void scanparam_int(parline, parname, parptr, parchecks, parminval, parmaxval)$/;"	f
+seedval	disksim_exec.c	/^int seedval;$/;"	v
+set_external_io_done_notify	disksim_exec.c	/^void set_external_io_done_notify(void(*func)(ioreq_event *)) {$/;"	f	signature:(void(*func)(ioreq_event *))
+simstop	disksim_exec.c	/^void simstop() {$/;"	f
+simtime	disksim_exec.c	/^double simtime = 0.0;$/;"	v
+stat_warmup_done	disksim_exec.c	/^void stat_warmup_done(timer)$/;"	f
+statdeffile	disksim_exec.c	/^FILE *statdeffile = NULL;$/;"	v
+stop_sim	disksim_exec.c	/^int stop_sim = FALSE;$/;"	v
+synthgen	disksim_exec.c	/^int synthgen = 0;$/;"	v
+traceendian	disksim_exec.c	/^int traceendian = _LITTLE_ENDIAN;$/;"	v
+traceformat	disksim_exec.c	/^int traceformat = ASCII;$/;"	v
+traceheader	disksim_exec.c	/^int traceheader = TRUE;$/;"	v
+warmup_event	disksim_exec.c	/^timer_event *warmup_event = NULL;$/;"	v
+warmup_iocnt	disksim_exec.c	/^int warmup_iocnt = 0;$/;"	v
+warmuptime	disksim_exec.c	/^double warmuptime = 0.0;$/;"	v
