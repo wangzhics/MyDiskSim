@@ -9,3 +9,7 @@
 /debug/*.o
 /debug/disksim_debug
 /debug/debugfile
+
+# the configuration of project
+.cproject
+.project
