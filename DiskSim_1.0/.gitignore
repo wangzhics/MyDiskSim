@@ -1,0 +1,6 @@
+# the compiled results of src
+/src/*.o
+/src/disksim 
+/src/syssim 
+/src/rms 
+/src/hplcomb
