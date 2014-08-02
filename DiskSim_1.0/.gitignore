@@ -4,3 +4,8 @@
 /src/syssim 
 /src/rms 
 /src/hplcomb
+
+# the compiled results of debug
+/debug/*.o
+/debug/disksim_debug
+/debug/debugfile
