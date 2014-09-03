@@ -13,3 +13,4 @@
 # the configuration of project
 .cproject
 .project
+.settings
